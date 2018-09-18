@@ -1,0 +1,14 @@
+The Results Are:
+
+ MOST POPULAR ARTICLES OF ALL TIME:
+Candidate is jerk, alleges rival" has 338647 views
+Bears love berries, alleges bear" has 253801 views
+Bad things gone, say good people" has 170098 views
+
+MOST POPULAR ARTICLE AUTHORS OF ALL TIME:
+Ursula La Multa has 507594 views
+Rudolf von Treppenwitz has 423457 views
+Anonymous Contributor has 170098 views
+
+DAYS WITH MORE THAN 1% OF REQUEST ERRORS:
+July 17, 2016 has 2.3% errors
