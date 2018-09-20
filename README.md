@@ -1,12 +1,28 @@
-# log-analysis
-log analysis project for Udacity Intro to Programming Nanodegree program
-This project uses Vagrant and Virtual Box
-cd to the vagrant file, this is where the python file should be
-vagrant up - to start vagrant
-vagrant ssh - to log into vagrant
-cd /vagrant - so you are in the vagrant file 
-psql -d news -f newsdata.sql  - to load the data from the sql file so can query 
-psql -d news   - to get into the news file so can query
-There are 3 tables inside the file and the problem is to answer 3 questions with queries to the database with python.  
-run the python file  - python newsdatadb.py
-It returns answers to 3 questions in plain text
+
+
+#LOG-ANALYSIS
+
+This is a log analysis project for Udacity Intro to Programming Nanodegree Program.
+It uses a python file to query a PostgreSQL database 
+and answer 3 questions. 
+
+This requires some setup.  It uses Vagrant and Virtual Box.
+
+##DIRECTIONS TO START PROGRAM:
+
+\cd to the vagrant file, this is where the python file should be
+\`vagrant up` - starts vagrant
+`vagrant ssh`  - log into vagrant
+`cd /vagrant`  - so you are in the vagrant file
+`psql -d news -f newsdata.sql`  - to load the data from the sql file
+`psql - news`  - to get into the news file so can query
+`python newsdatadb.py`  - runs the python file
+
+There are 3 tables inside the file and the problem is to answer 3 questions with queries to the 
+database with python. The tables are articles, authors, and log.  Return the answers to 3 questions
+in plain text.
+
+##QUESTIONS:
+1.  What are the most popular 3 articles? 
+2.  Who are the most popular authors?
+3.  What day had errors over 1%?
