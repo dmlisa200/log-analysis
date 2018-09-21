@@ -22,6 +22,6 @@ database with python. The tables are articles, authors, and log.  Return the ans
 in plain text.
 
 <h3>QUESTIONS:</h3>
-1.  What are the most popular 3 articles? 
-2.  Who are the most popular authors?
+1.  What are the most popular 3 articles?<br>
+2.  Who are the most popular authors?<br>
 3.  What day had errors over 1%?
