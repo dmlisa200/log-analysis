@@ -9,7 +9,7 @@ This requires some setup.  It uses Vagrant and Virtual Box.
 
 <h2>DIRECTIONS TO START PROGRAM:</h2>
 
-cd to the vagrant file, this is where the python file should be<br>
+cd to the vagrant file, this is where the python file needs to be<br>
 `vagrant up` - starts vagrant<br>
 `vagrant ssh`  - log into vagrant<br>
 `cd /vagrant`  - so you are in the vagrant file<br>
