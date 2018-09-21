@@ -1,5 +1,5 @@
 
-#LOG-ANALYSIS
+<h1>LOG-ANALYSIS</h1>
 
 This is a log analysis project for Udacity Intro to Programming Nanodegree Program.
 It uses a python file to query a PostgreSQL database 
@@ -11,9 +11,9 @@ This requires some setup.  It uses Vagrant and Virtual Box.
 
 cd to the vagrant file, this is where the python file should be<br>
 `vagrant up` - starts vagrant<br>
-`vagrant ssh`  - log into vagrant
-`cd /vagrant`  - so you are in the vagrant file
-`psql -d news -f newsdata.sql`  - to load the data from the sql file
+`vagrant ssh`  - log into vagrant<br>
+`cd /vagrant`  - so you are in the vagrant file<br>
+`psql -d news -f newsdata.sql`  - to load the data from the sql file<br>
 `psql - news`  - to get into the news file so can query
 `python newsdatadb.py`  - runs the python file
 
