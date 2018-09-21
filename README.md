@@ -21,7 +21,7 @@ There are 3 tables inside the file and the problem is to answer 3 questions with
 database with python. The tables are articles, authors, and log.  Return the answers to 3 questions
 in plain text.
 
-##QUESTIONS:
+<h3>QUESTIONS:</h3>
 1.  What are the most popular 3 articles? 
 2.  Who are the most popular authors?
 3.  What day had errors over 1%?
