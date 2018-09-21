@@ -7,14 +7,14 @@ and answer 3 questions.
 
 This requires some setup.  It uses Vagrant and Virtual Box.
 
-##DIRECTIONS TO START PROGRAM:
+<h2>DIRECTIONS TO START PROGRAM:</h2>
 
 cd to the vagrant file, this is where the python file should be<br>
 `vagrant up` - starts vagrant<br>
 `vagrant ssh`  - log into vagrant<br>
 `cd /vagrant`  - so you are in the vagrant file<br>
 `psql -d news -f newsdata.sql`  - to load the data from the sql file<br>
-`psql - news`  - to get into the news file so can query
+`psql - news`  - to get into the news file so can query<br>
 `python newsdatadb.py`  - runs the python file
 
 There are 3 tables inside the file and the problem is to answer 3 questions with queries to the 
