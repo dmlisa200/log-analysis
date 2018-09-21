@@ -1,5 +1,4 @@
 
-
 #LOG-ANALYSIS
 
 This is a log analysis project for Udacity Intro to Programming Nanodegree Program.
@@ -10,8 +9,8 @@ This requires some setup.  It uses Vagrant and Virtual Box.
 
 ##DIRECTIONS TO START PROGRAM:
 
-\cd to the vagrant file, this is where the python file should be
-\`vagrant up` - starts vagrant
+cd to the vagrant file, this is where the python file should be<br>
+`vagrant up` - starts vagrant<br>
 `vagrant ssh`  - log into vagrant
 `cd /vagrant`  - so you are in the vagrant file
 `psql -d news -f newsdata.sql`  - to load the data from the sql file
