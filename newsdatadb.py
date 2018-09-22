@@ -3,8 +3,8 @@ import psycopg2
 
 
 def runs_query(query):
-   ''' This is the query function that is the same for each question function,  each question
-   has its own query that is inserted'''
+   """ This is the query function that is the same for each question function,  each question
+   has its own query that is inserted"""
    
    db = psycopg2.connect("dbname=news")
    c = db.cursor()
@@ -16,8 +16,8 @@ def runs_query(query):
    
    
 def top_articles():
-   '''This is question 1 that finds 3 most popular articles and prints the articles names with number
-   of views for each'''
+   """This is question 1 that finds 3 most popular articles and prints the articles names with number
+   of views for each"""
     
     query =  """
         SELECT articles.title, COUNT(*) 
@@ -42,8 +42,8 @@ def top_articles():
         
         
 def top_article_authors():
-   '''This is the query for question 2 that returns the top three most popular authors and prints
-   the names and the number of views for each'''
+   """This is the query for question 2 that returns the top three most popular authors and prints
+   the names and the number of views for each"""
     
     query = """
         SELECT authors.name, COUNT(*)
@@ -68,8 +68,8 @@ def top_article_authors():
         
         
 def days_with_errors():
-   '''this is question 3 that finds the day with errors over 1% then prints
-   the date'''
+   """this is question 3 that finds the day with errors over 1% then prints
+   the date"""
     
     
     query = """
@@ -100,6 +100,11 @@ print('The Results Are:  ')
 top_articles()
 top_article_authors()
 days_with_errors()
+
+
+
+
+""" I researched other Udacity courses, Udemy courses, Pluralsight courses, Github, Stackoverflow, github"""
         
         
 
