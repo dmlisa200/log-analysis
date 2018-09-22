@@ -7,10 +7,11 @@ and answer 3 questions.
 
 This requires some setup.  It uses Vagrant and Virtual Box.   This also requires
 this SQL file [newsdata](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip)
+unzip the file and put it in the vagrant file along with the python file
 
 <h2>DIRECTIONS TO START PROGRAM:</h2>
 
-cd to the vagrant file, this is where the python file needs to be<br>
+cd to the vagrant file<br>
 `vagrant up` - starts vagrant<br>
 `vagrant ssh`  - log into vagrant<br>
 `cd /vagrant`  - so you are in the vagrant file<br>
