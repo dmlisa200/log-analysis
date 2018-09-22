@@ -15,6 +15,7 @@ cd to the vagrant file<br>
 `vagrant up` - starts vagrant<br>
 `vagrant ssh`  - log into vagrant<br>
 `cd /vagrant`  - so you are in the vagrant file<br>
+`cd log_analysis`  -  in the log_analysis file
 `psql -d news -f newsdata.sql`  - to load the data from the sql file<br>
 `psql - news`  - to get into the news file so can query<br>
 `python newsdatadb.py`  - runs the python file
