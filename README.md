@@ -6,7 +6,7 @@ It uses a python file to query a PostgreSQL database
 and answer 3 questions. 
 
 This requires some setup.  It uses Vagrant and Virtual Box.   This also requires
-this SQL file [newsdata](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip)
+this SQL file [newsdata](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip)<br>
 unzip the file and put it in the vagrant file along with the python file
 
 <h2>DIRECTIONS TO START PROGRAM:</h2>
